@@ -1,3 +1,6 @@
+# TODO: get latest go release from this command
+# `go install golang.org/dl/go1.24rc1@latest`
+# and put it under flox
 {
   inputs.nixpkgs.url = "github:nixos/nixpkgs/master";
   outputs = inputs: {
